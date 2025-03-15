@@ -7,15 +7,13 @@
 :root {
 
 	/* Colors */
-	--color-primary: #157fac;
-	--color-primary-dark: #105e7f;
-	--color-primary-light: #63c2ec;
-	--color-secondary: #275a19;
-	--color-secondary-dark: #193c11;
-	--color-secondary-light: #ccedc5;
-	--color-tertiary: #fbf784;
-	--color-tertiary-dark: #bab403;
-	--color-tertiary-light: #fbf9c9;
+	--color-primary: #b1ded6;
+	--color-primary-dark: #7ac7bc;
+	--color-primary-darker: #429e90;
+	--color-primary-light: #dff1ef;
+	--color-secondary: #243269;
+	--color-secondary-dark: #131b3a;
+	--color-secondary-light: #546bc4;
 	--color-black: #272727;
 	--color-black-dark: #000000;
 	--color-white: #ffffff;
@@ -32,8 +30,8 @@
 
 
 	/* Font Stacks */
-	--font-primary: "Noto Sans", sans-serif;
-	--font-secondary: Oswald, sans-serif;
+	--font-primary: Lato, sans-serif;
+	--font-secondary: Norwester, sans-serif;
 	--font-monospace: Menlo, Monaco, "Courier New", monospace;
 
 
@@ -55,9 +53,4 @@
 	--container-medium-max-width: var(--bp-medium-plus);
 	--container-large-max-width: var(--bp-large);
 
-}
-
-.font-alt {
-	--font-primary: Roboto, sans-serif;
-	--font-secondary: "Roboto Slab", serif;
 }

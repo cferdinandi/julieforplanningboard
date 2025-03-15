@@ -31,13 +31,13 @@ p {
  */
 
 a {
-	color: var(--color-primary);
+	color: var(--color-secondary-light);
 	text-decoration-skip-ink: auto;
 	word-wrap: break-word;
 }
 
 a:hover {
-	color: var(--color-primary-dark);
+	color: var(--color-secondary);
 }
 
 
@@ -55,13 +55,12 @@ a:hover {
  */
 
 .link-plain {
-/*.link-plain:visited {*/
 	color: var(--color-black);
 	text-decoration: none;
 }
 
 .link-plain:hover {
-	color: var(--color-primary);
+	color: var(--color-secondary-light);
 }
 
 

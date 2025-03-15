@@ -74,11 +74,11 @@
 	text-wrap: balance;
 }
 
-.text-sans {
+.text-primary {
 	font-family: var(--font-primary);
 }
 
-.text-serif {
+.text-secondary {
 	font-family: var(--font-secondary);
 }
 
@@ -117,38 +117,28 @@
 }
 
 .bg-primary {
-	background-color: var(--color-secondary-dark);
+	background-color: var(--color-primary);
+}
+
+.bg-primary-dark {
+	background-color: var(--color-primary-darker);
 }
 
 .bg-secondary {
-	background-color: var(--color-tertiary-light);
+	background-color: var(--color-secondary);
 }
 
-.bg-tertiary {
-	background-color: var(--color-primary-dark);
+.bg-secondary-dark {
+	background-color: var(--color-secondary-dark);
 }
 
-.bg-primary,
-.bg-tertiary,
-.bg-primary a:not(.btn),
-.bg-tertiary a:not(.btn),
-.bg-primary h1,
-.bg-primary h2,
-.bg-primary h3,
-.bg-primary h4,
-.bg-primary h5,
-.bg-primary h6,
-.bg-tertiary h1,
-.bg-tertiary h2,
-.bg-tertiary h3,
-.bg-tertiary h4,
-.bg-tertiary h5,
-.bg-tertiary h6 {
+:is(.bg-primary-dark, .bg-secondary, .bg-secondary-dark),
+:is(.bg-primary-dark, .bg-secondary, .bg-secondary-dark) a:not(.btn),
+:is(.bg-primary-dark, .bg-secondary, .bg-secondary-dark) :is(h1, h2, h3, h4, h5, h6) {
 	color: var(--color-white);
 }
 
-.bg-primary a:not(.btn):hover,
-.bg-tertiary a:not(.btn):hover {
+:is(.bg-primary-dark, .bg-secondary, .bg-secondary-dark) a:not(.btn):hover {
 	color: var(--color-gray-medium-dark);
 }
 
@@ -158,11 +148,19 @@
  */
 
 .border-top-primary {
-	border-top: 1px solid var(--color-primary-dark);
+	border-top: 1px solid var(--color-primary);
+}
+
+.border-top-primary-dark {
+	border-top: 1px solid var(--color-primary-darker);
 }
 
 .border-secondary {
-	border: 1px solid var(--color-tertiary-dark);
+	border: 1px solid var(--color-secondary);
+}
+
+.border-secondary-dark {
+	border: 1px solid var(--color-secondary-dark);
 }
 
 .border-radius {
