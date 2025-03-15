@@ -1,0 +1,14 @@
+<header class="nav-header {{ if not .Params.hasHero }}margin-bottom-large{{ end }}">
+	<div class="container container-large">
+		<nav class="nav-wrap">
+			<a class="logo" href="{{ .Site.BaseURL }}">
+				{{ .Site.Params.logo.text | safeHTML }}
+			</a>
+			<div class="nav-menu" id="nav-menu">
+				<ul class="nav">
+					{{ partial "nav-items.html" . }}
+				</ul>
+			</div>
+		</nav>
+	</div>
+</header>

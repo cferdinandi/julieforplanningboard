@@ -1,0 +1,75 @@
+# hostname (and path) to the root
+baseURL: http://julie4planning.com
+
+# Site title
+title: Julie Garland for Wrentham Planning Board
+
+# Custom parameters
+params:
+  demo: false
+  description: Write-in Julie Garland for the Wrentham, MA Planning Board.
+  image: /img/og.png
+  css:
+    - fonts.css
+    - _config.css
+    - reset.css
+    - grid.css
+    - typography.css
+    - code.css
+    - forms.css
+    - buttons.css
+    - images.css
+    - fluidvids.css
+    - callouts.css
+    - tables.css
+    - nav-main.css
+    - nav-secondary.css
+    - convertkit.css
+    - utilities.css
+    - print.css
+
+# Caches
+caches:
+  getjson:
+    maxAge: 1m
+
+# Change published dir
+publishDir: docs
+
+# The language code for the site
+languageCode: en-us
+
+# Permalinks
+# See "content-management/permalinks"
+permalinks:
+  services: /:filename/
+
+# Use absolute URLs
+canonifyURLs: true
+
+# Allows you to disable all page types and will render nothing related to 'kind';
+# values = "page", "home", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT", "404"
+disableKinds:
+  - RSS
+  - hugoGeneratorInject
+  - "404"
+  - taxonomy
+  - taxonomyTerm
+
+# Files to ignore while rendering
+ignoreFiles: []
+
+# the length of text to show in a .Summary
+summaryLength: 70
+
+# Pagination
+paginate: 35
+paginatePath: page
+
+# Markdown Options
+blackfriday:
+  fractions: false
+
+# Syntax Highlighting
+pygmentsCodefences: true
+pygmentsUseClasses: true
