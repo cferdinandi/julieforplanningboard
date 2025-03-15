@@ -3,9 +3,10 @@
  * Styling for the main navigation area
  */
 
-/*.nav-header {
+.nav-header {
+/*	background-color: var(--color-primary);*/
 	border-bottom: 2px solid var(--color-secondary);
-}*/
+}
 
 /**
  * The navigation wrapper
@@ -13,59 +14,56 @@
 .nav-wrap {
 	padding: 1em 0;
 	text-align: center;
+/*	display: flex;
+	justify-content: space-between;
+	align-items: center;*/
 }
 
-@media (min-width: 60em) {
-	.nav-wrap {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-	}
-}
 
 /**
  * The logo
  */
 .logo {
-	color: var(--color-black);
+	color: var(--color-secondary);
 	display: inline-block;
 	font-family: var(--font-secondary);
 	font-size: 1.0625em;
 	font-weight: bold;
 	line-height: 1.2;
-	margin-bottom: 0.5em;
 	text-decoration: none;
 	text-transform: uppercase;
-	text-align: left;
+	text-align: center;
 	transition: color 200ms ease-in;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1em;
 }
 
-@media (min-width: 60em) {
+@media (min-width: 30em) {
 	.logo {
-		margin-bottom: 0;
+		gap: 1.5em;
 	}
 }
 
-.logo-row {
-	display: flex;
-	align-items: center;
+@media (min-width: 42em) {
+	.logo {
+		gap: 2em;
+	}
+}
+
+.logo-write-in {
+	font-style: italic;
+	transform: rotate(-12deg);
 }
 
 .logo-name {
-	color: var(--color-secondary);
 	font-size: 1.3125em;
 }
 
-.logo-join {
-	color: var(--color-gray-dark);
-	font-family: var(--font-primary);
-	font-size: 0.8125em;
-	font-style: italic;
-	text-transform: none;
-}
-
 .logo:hover {
-	color: var(--color-secondary);
+	color: var(--color-secondary-dark);
 }
 
 /**

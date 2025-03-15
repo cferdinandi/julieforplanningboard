@@ -1,14 +1,24 @@
 <header class="nav-header {{ if not .Params.hasHero }}margin-bottom-large{{ end }}">
 	<div class="container container-large">
 		<nav class="nav-wrap">
-			<a class="logo" href="{{ .Site.BaseURL }}">
-				{{ .Site.Params.logo.text | safeHTML }}
+			<a class="logo" href="{{ .Site.BaseURL }}" aria-label="{{ .Site.Params.logo | safeHTML }}">
+				<div class="logo-write-in">Write In:</div>
+				<div class="logo-name">
+					<span>Julie Garland</span><br>
+					<span>555 West St.</span>
+				</div>
+				<div class="logo-role">
+					Planning<br>
+					Board
+				</div>
 			</a>
+			{{ if false }}
 			<div class="nav-menu" id="nav-menu">
 				<ul class="nav">
 					{{ partial "nav-items.html" . }}
 				</ul>
 			</div>
+			{{ end }}
 		</nav>
 	</div>
 </header>

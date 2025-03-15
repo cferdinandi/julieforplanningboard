@@ -9,6 +9,7 @@ params:
   demo: false
   description: Write-in Julie Garland for the Wrentham, MA Planning Board.
   image: /img/og.png
+  logo: Write-In Julie Garland 555 West Street for Wrentham Planning Board
   css:
     - fonts.css
     - _config.css
@@ -24,7 +25,7 @@ params:
     - tables.css
     - nav-main.css
     - nav-secondary.css
-    - convertkit.css
+    - hero.css
     - utilities.css
     - print.css
 

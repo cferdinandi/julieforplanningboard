@@ -25,7 +25,7 @@ figcaption {
 
 .img-photo {
 	border: 0.5em solid var(--color-white);
-	border-bottom-width: 2em;
+/*	border-bottom-width: 2em;*/
 	border-radius: 0.1875em;
 }
 

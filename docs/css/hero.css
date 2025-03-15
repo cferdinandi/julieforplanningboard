@@ -1,0 +1,17 @@
+/**
+ * @section Hero Modifiers
+ */
+
+#hero-img {
+	margin-bottom: var(--spacing);
+}
+
+@media (min-width: 38em) {
+	#hero-img {
+		margin-bottom: -0.45em;
+	}
+}
+
+#hero-img img {
+	width: 50vw;
+}

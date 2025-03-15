@@ -1,12 +1,12 @@
 			</div>
 		</main>
 
-		<div class="border-top-primary">
+		<div class="border-top-secondary">
 			<footer class="footer container container-large padding-top-large padding-bottom-large">
-				<div class="row-flex margin-bottom-small">
-					{{ partial "nav-secondary.html" . }}
-				</div>
-				<p class="text-small text-muted">Paid for by Leo Immonen for Select Board &middot; PO Box 24, Wrentham, MA 02093</p>
+				<ul class="list-inline list-inline-spaced">
+					<li>{{ partial "contact.html" . }}</li>
+					<li><span class="text-small text-muted">555 West Street, Wrentham, MA 02093</span></li>
+				</ul>
 			</footer>
 		</div>
 
@@ -19,11 +19,6 @@
 		<script>
 			{{- if .HasShortcode "wc-toc" -}}{{ readFile "/static/js/wc-simple-toc.js" | safeJS }}{{- end -}}
 			{{ readFile "/static/js/swInit.js" | safeJS }}
-			{{- if .HasShortcode "wc-photoswipe" -}}
-				{{ readFile "/static/js/photoswipe-lightbox.umd.min.js" | safeJS }}
-				{{ readFile "/static/js/photoswipe.umd.min.js" | safeJS }}
-				{{ readFile "/static/js/wc-photoswipe.js" | safeJS }}
-			{{- end -}}
 			{{- if isset .Params "js" -}}
 				{{- range $js := .Params.js -}}
 					{{- if fileExists (printf "/static/js/%s.js" $js) -}}

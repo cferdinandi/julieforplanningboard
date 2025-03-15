@@ -75,6 +75,18 @@ a.btn {
 	color: var(--color-white);
 }
 
+.btn-tertiary-flip {
+	--bg-color: transparent;
+	--border-color: var(--color-white);
+	color: var(--color-white);
+}
+
+.btn-tertiary-flip:hover {
+	--bg-color: var(--color-white);
+	--border-color: var(--color-white);
+	color: var(--color-secondary);
+}
+
 
 /**
  * Muted buttons
