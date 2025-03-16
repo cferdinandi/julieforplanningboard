@@ -1217,6 +1217,7 @@ td {
 	font-size: 1.0625em;
 	font-weight: bold;
 	line-height: 1.2;
+	margin-bottom: 1em;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
@@ -1557,6 +1558,12 @@ td {
 	padding-top: var(--spacing);
 }
 
+@media (max-width: 38em) {
+	.padding-top-mobile {
+		padding-top: var(--spacing);
+	}
+}
+
 .padding-top-xsmall {
 	padding-top: 0.25em;
 }
@@ -1783,7 +1790,15 @@ td {
 					Board
 				</div>
 			</a>
-			
+			<div class="nav-menu" id="nav-menu">
+				<ul class="nav">
+					<li><a href="https://cferdinandi.github.io/julieforplanningboard/#meet">Meet</a></li>
+<li><a href="https://cferdinandi.github.io/julieforplanningboard/#experience">Experience</a></li>
+<li><a href="https://cferdinandi.github.io/julieforplanningboard/#vote">Vote</a></li>
+<li><a href="https://cferdinandi.github.io/julieforplanningboard/#contact">Contact</a></li>
+<li><a href="https://cferdinandi.github.io/julieforplanningboard/#donate">Donate</a></li>
+				</ul>
+			</div>
 		</nav>
 	</div>
 </header>
@@ -1808,10 +1823,19 @@ td {
 
 		<div class="border-top-secondary">
 			<footer class="footer container container-large padding-top-large padding-bottom-large">
-				<ul class="list-inline list-inline-spaced">
-					<li><a class="link-no-underline link-no-visited" href="mailto:&#106;&#117;&#108;&#105;&#101;&#052;&#112;&#108;&#097;&#110;&#110;&#105;&#110;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><svg xmlns="http://www.w3.org/2000/svg" class="margin-right" style="margin-bottom:-0.1875em;" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path></svg>&#106;&#117;&#108;&#105;&#101;&#052;&#112;&#108;&#097;&#110;&#110;&#105;&#110;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></li>
-					<li><span class="text-small text-muted">555 West Street, Wrentham, MA 02093</span></li>
-				</ul>
+				<div class="row-flex">
+					<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline no-margin-bottom">
+		<li><a href="https://cferdinandi.github.io/julieforplanningboard/#meet">Meet</a></li>
+<li><a href="https://cferdinandi.github.io/julieforplanningboard/#experience">Experience</a></li>
+<li><a href="https://cferdinandi.github.io/julieforplanningboard/#vote">Vote</a></li>
+<li><a href="https://cferdinandi.github.io/julieforplanningboard/#contact">Contact</a></li>
+<li><a href="https://cferdinandi.github.io/julieforplanningboard/#donate">Donate</a></li>
+	</ul>
+</nav>
+					<div class="text-small text-muted">Paid for by the Garland Committee</div>
+					<div class="text-small text-muted">555 West Street, Wrentham, MA 02093</div>
+				</div>
 			</footer>
 		</div><script>// Initialize the service worker
 if (navigator && navigator.serviceWorker) {

@@ -1218,6 +1218,7 @@ td {
 	font-size: 1.0625em;
 	font-weight: bold;
 	line-height: 1.2;
+	margin-bottom: 1em;
 	text-decoration: none;
 	text-transform: uppercase;
 	text-align: center;
@@ -1558,6 +1559,12 @@ td {
 	padding-top: var(--spacing);
 }
 
+@media (max-width: 38em) {
+	.padding-top-mobile {
+		padding-top: var(--spacing);
+	}
+}
+
 .padding-top-xsmall {
 	padding-top: 0.25em;
 }
@@ -1784,7 +1791,15 @@ td {
 					Board
 				</div>
 			</a>
-			
+			<div class="nav-menu" id="nav-menu">
+				<ul class="nav">
+					<li><a href="https://cferdinandi.github.io/julieforplanningboard/#meet">Meet</a></li>
+<li><a href="https://cferdinandi.github.io/julieforplanningboard/#experience">Experience</a></li>
+<li><a href="https://cferdinandi.github.io/julieforplanningboard/#vote">Vote</a></li>
+<li><a href="https://cferdinandi.github.io/julieforplanningboard/#contact">Contact</a></li>
+<li><a href="https://cferdinandi.github.io/julieforplanningboard/#donate">Donate</a></li>
+				</ul>
+			</div>
 		</nav>
 	</div>
 </header>
@@ -1797,14 +1812,14 @@ td {
 
 	
 
-	<div class="full-width bg-primary padding-top-large">
+	<div id="intro" class="full-width bg-primary padding-top-large">
     <div class="container container-medium">
         <h1 class="text-xlarge text-center">Write-In Julie Garland for Wrentham Planning Board</h1>
         <div class="row row-gap-large">
             <div class="grid-third text-center" id="hero-img">
                 <img alt="A photo of a Julie Garland, a white woman with short hair, wearing a purple shirt and jeans, with her hands tucked in her pockets" src="https://cferdinandi.github.io/julieforplanningboard/img/photos/julie-1-no-bg-alt.png">
             </div>
-            <div class="grid-two-thirds">
+            <div class="grid-two-thirds padding-bottom-large">
                 <p>Hi, I'm Julie! I believe in the importance of thoughtful and well-planned growth that aligns with our town's vision and&nbsp;values.</p>
                 <p><strong class="text-large text-secondary">I'm committed to...</strong></p>
                 <ul class="list-checked margin-bottom-large">
@@ -1836,22 +1851,22 @@ td {
                             <li>A flock of chickens</li>
                         </ul>
                     </li>
-                    <li>Director of Operations for a 19-person consulting firm</li>
+                    <li>Director of Operations at an access and architecture firm with experience navigating regulations</li>
                     <li>Vice Chair of the Wrentham Conservation Commission</li>
                 </ul>
-                <p><a class="btn btn-tertiary-flip btn-large" href="https://cloud.castus.tv/vod/cable8/private/67cb2ed60f11f39c9c909f4f?page=HOME"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="margin-right" style="margin-bottom:-0.125em;" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2m6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/></svg> Watch my Candidate Profile Video &rarr;</a></p>
+                <p><a class="btn btn-tertiary-flip btn-large" href="https://cloud.castus.tv/vod/cable8/private/67cb2ed60f11f39c9c909f4f?page=HOME"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" class="margin-right" style="margin-bottom:-0.125em;" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M0 12V4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2m6.79-6.907A.5.5 0 0 0 6 5.5v5a.5.5 0 0 0 .79.407l3.5-2.5a.5.5 0 0 0 0-.814z"/></svg> Watch my Candidate Profile&nbsp;Video&nbsp;&rarr;</a></p>
             </div>
-            <div class="grid-half text-center">
-                <figure style="width:88%;transform: rotate(3deg);">
+            <div class="grid-half padding-top-mobile text-center">
+                <figure class="img-center" style="width:88%;transform: rotate(3deg);">
                     <img class="img-photo" height="720" width="860" src="https://cferdinandi.github.io/julieforplanningboard/img/photos/julie-and-dog.jpg">
-                    <figcaption>Julie Garland at Birchwold Farm with her dog</figcaption>
+                    <figcaption>Julie Garland at Birchwold Farm with her dog,&nbsp;Irie</figcaption>
                 </figure>
             </div> 
         </div>          
     </div>
 </div>
 
-<div id="credentials" class="full-width bg-secondaryx padding-top-large padding-bottom-large">
+<div id="experience" class="full-width bg-secondaryx padding-top-large padding-bottom-large">
     <div class="container container-largex">
         <h2 class="text-xlarge text-center">I'm deeply passionate about Wrentham!</h2>
         <p>I have a proven track record of service to the Wrentham community, and years of relevant experience.</p>
@@ -1877,6 +1892,22 @@ td {
     </div>
 </div>
 
+<div id="contact" class="text-center padding-top-large padding-bottom-large">
+    <h2 class="text-xlarge text-center margin-bottom-small">Keep in Touch</h2>
+    <p><strong>Stay up-to-date on the campaign.</strong> Reach out by email or join me on Facebook.</p>
+    <ul class="list-inline list-inline-center list-inline-spaced">
+        <li><a class="link-no-underline" href="mailto:&#106;&#117;&#108;&#105;&#101;&#052;&#112;&#108;&#097;&#110;&#110;&#105;&#110;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><svg xmlns="http://www.w3.org/2000/svg" class="margin-right" style="margin-bottom:-0.1875em;" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"/></svg>&#106;&#117;&#108;&#105;&#101;&#052;&#112;&#108;&#097;&#110;&#110;&#105;&#110;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></li>
+        <li><a class="link-no-underline" href="https://www.facebook.com/juliegarland4planning"><svg xmlns="http://www.w3.org/2000/svg" style="margin-bottom:-0.125em;" class="margin-right" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/></svg>@juliegarland4planning</a></li>
+    </ul>
+</div>
+
+<div id="donate" class="full-width bg-primary padding-top-large padding-bottom-large">
+    <div class="container container-large">
+        <h2 class="text-xlarge text-center">Support My Campaign</h2>
+        <p class="margin-bottom-large text-center"><a class="btn btn-large" href="#">Donate Now &rarr;</a> 
+    </div>
+</div>
+
 
 </article>
 
@@ -1885,10 +1916,19 @@ td {
 
 		<div class="border-top-secondary">
 			<footer class="footer container container-large padding-top-large padding-bottom-large">
-				<ul class="list-inline list-inline-spaced">
-					<li><a class="link-no-underline link-no-visited" href="mailto:&#106;&#117;&#108;&#105;&#101;&#052;&#112;&#108;&#097;&#110;&#110;&#105;&#110;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><svg xmlns="http://www.w3.org/2000/svg" class="margin-right" style="margin-bottom:-0.1875em;" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" aria-hidden="true"><path d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z"></path></svg>&#106;&#117;&#108;&#105;&#101;&#052;&#112;&#108;&#097;&#110;&#110;&#105;&#110;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;</a></li>
-					<li><span class="text-small text-muted">555 West Street, Wrentham, MA 02093</span></li>
-				</ul>
+				<div class="row-flex">
+					<nav class="tabindex nav-secondary" id="nav-secondary" tabindex="-1">
+	<ul class="list-inline no-margin-bottom">
+		<li><a href="https://cferdinandi.github.io/julieforplanningboard/#meet">Meet</a></li>
+<li><a href="https://cferdinandi.github.io/julieforplanningboard/#experience">Experience</a></li>
+<li><a href="https://cferdinandi.github.io/julieforplanningboard/#vote">Vote</a></li>
+<li><a href="https://cferdinandi.github.io/julieforplanningboard/#contact">Contact</a></li>
+<li><a href="https://cferdinandi.github.io/julieforplanningboard/#donate">Donate</a></li>
+	</ul>
+</nav>
+					<div class="text-small text-muted">Paid for by the Garland Committee</div>
+					<div class="text-small text-muted">555 West Street, Wrentham, MA 02093</div>
+				</div>
 			</footer>
 		</div><script>// Initialize the service worker
 if (navigator && navigator.serviceWorker) {
