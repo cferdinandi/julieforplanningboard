@@ -95,9 +95,9 @@ hasHero: true
 	</ul>
 </div>
 
-<!-- <div id="donate" class="full-width bg-primary padding-top-large padding-bottom-large">
+<div id="donate" class="full-width bg-primary padding-top-large padding-bottom-large">
 	<div class="container container-large">
 		<h2 class="text-xlarge text-center">Support My Campaign</h2>
-		<p class="margin-bottom-large text-center"><a class="btn btn-large" href="#">Donate Now &rarr;</a> 
+		<p class="margin-bottom-large text-center"><a class="btn btn-large" href="https://secure.actblue.com/donate/julie4planning">Donate Now &rarr;</a> 
 	</div>
-</div> -->
+</div>
